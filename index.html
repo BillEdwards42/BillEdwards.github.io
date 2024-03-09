@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bill's personal webpage</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kode+Mono:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Madimi+One&display=swap" rel="stylesheet">
+  <style>
+    .nav-icon{
+      margin-top: -5px;
+      margin-left: 10px;
+    }
+    .feature-icon {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 0.75rem;
+    }
+    .icon{
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+    .caveat-font {
+        font-family: 'Caveat', cursive;
+        }
+
+        /* Applying 'Kode Mono' font */
+    .kode-mono-font {
+        font-family: 'Kode Mono', monospace;
+        }
+
+        /* Applying 'Libre Baskerville' font */
+    .ibre-baskerville-font {
+        font-family: 'Libre Baskerville', serif;
+        }
+
+        /* Applying 'Madimi One' font */
+    .madimi-one-font {
+        font-family: 'Madimi One', sans-serif;
+        }
+    .mtb{
+      margin-bottom: 0;
+    }
+    .mtz{
+      margin-top: 0;
+    }
+  </style>
+  <link rel="icon" type="image/x-icon" href="./billy_icon.ico">
+</head>
+
+<body>
+  <nav class="mtb navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./billy_icon.ico" alt="" width="30" height="30" class="nav-icon"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About me
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./hobbies.html">Hobbies</a></li>
+              <li><a class="dropdown-item" href="./contacts.html">Contact informations</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold text-body-emphasis kode-mono-font">Introduction</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4 ibre-baskerville-font">Hi, I'm Bill Edwards, a 19-year-old student at 國立中正大學 as of March 9, 2024. Please scroll down for my personal skills / experiences. For more, click the about me tab on the bar above. </p>
+      <img class="d-block mx-auto mb-4" src="./business_card.jpg" alt="" width="669" height="394">
+    </div>
+  </div>
+  <!-- endofhero -->
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom kode-mono-font">Skills / Expericnces</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./globe-americas.svg" class="icon">
+        </div>
+        <h3 class="fs-2 text-body-emphasis ibre-baskerville-font">ESG skills</h3>
+        <p>I've been writing an ongoing thesis about the implementation of carbon pricing in CCU. Through the extensive literature review and research, I can confidently say that I have the most related knowledge amongst my peers. Also, I'm currently participating in a entrepreneurship competition using products with 0 carbon footprint, allowing me to understand the process of production, and how to make it environmental friendly.</p>
+        <a href="https://wcr.nstc.gov.tw/CR/library/ShowPDF.aspx?appl_year=113&idno=176%24170%24174%24172%24173%24176%24176%24172%24171%24200%248030&code=C802" class="icon-link">
+          Thesis:
+          高教減碳 : 以行動研究探討高教內部碳定價之可行方案
+        <a href="https://ssp.moe.gov.tw/cases/856" class="icon-link">
+          Entrepreneurship competition: 
+          大專院校 創業實戰模擬學習平台 產品
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./chat-square-dots.svg" class="icon">
+        </div>
+        <h3 class="fs-2 text-body-emphasis ibre-baskerville-font">English skills</h3>
+        <p>A TOEIC of 950. My listening and speaking skills have been honed with the daily conversations with my dad, making me fluent in the language. Also, I've been to America quite a few times, visiting family and friends. This has aided me a lot in my ability to confidently communicate with others in English, and has drastically expended my world view.</p>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./bank.svg" class="icon">
+        </div>
+        <h3 class="fs-2 text-body-emphasis ibre-baskerville-font">Security analysis skills</h3>
+        <p>19th place nationally in the Taipei Exchange portfolio presenttation competition. I've been neck deep into all things securities since highschool, granting me the required skills to analyize current economies, markets, and securties. This has been more of a hobby than a task to me. I've learned for the best, literally. I've read books written by Warren Buffet, Charlie Munger, Howard Marks, Ray Dalio and more. The experiences has only been joyful.</p>
+        <a href="https://salmon-meggi-89.tiiny.site/" class="icon-link">
+          Taipei Exchange competition's certificate
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- endof1row -->
+  <div class="container px-4 py-5" id="featured-3">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./currency-dollar.svg" class="icon">
+        </div>
+        <h3 class="fs-2 text-body-emphasis ibre-baskerville-font">Financial skills</h3>
+        <p>I've took on nurmerous financial courses, both in my college and outside my college. Including financial market course from Yale, grades achieved: 95.27%. These courses not only granted me the basic foudation of finance, it also taught me the statistical application of financial equations and datas. This is one of the motivations for me to learn more on both finance, and programming.</p>
+        <a href="https://gold-sorcha-51.tiiny.site/" class="icon-link">
+          Yale financial certificate
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./cpu.svg" class="icon">
+        </div>
+        <h3 class="fs-2 text-body-emphasis ibre-baskerville-font">Programming skills</h3>
+        <p>Ever since college, I've been learning about programming. I'm interested in the applications of programming in business and finance. The interest only motivates me to learn more. This website you're looking at right now is also a product of my learning process. I have finsihed python cs50 by David Malan, and I'm currently enrolled in python pro bootcamp, taught by Dr. Angela Yu.</p>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./dribbble.svg" class="icon">
+        </div>
+        <h3 class="fs-2 text-body-emphasis ibre-baskerville-font">Athletic skills</h3>
+        <p>This may seem completely unrelated, but I would like to note that I have been a part of competitive basketball in highschool. As team captain, I led my team to as high as national top 8 in certain tournaments, and was the national rebounding leader for CHOXUE league in my senior year. Though in college, I didn't join the school basketball team, but I never stopped considering myself as a student athlete, and I have carried on the discipline that I fostered in highschool into all facets of my life. </p>
+        <a href="https://www.youtube.com/watch?v=2tiZz0z4ZgE" class="icon-link">
+          Senior year highlight
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    </ul>
+    <p class="text-center text-body-secondary">© Bill Edwards, 2024</p>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
